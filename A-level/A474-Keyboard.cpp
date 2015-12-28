@@ -8,8 +8,7 @@ int main() {
 	int i, len, ind;
 	char dir, s[105]={}, tmp; 
 	char key[]="qwertyuiopasdfghjkl;zxcvbnm,./";
-	scanf("%c", &dir);
-	scanf("%s", s);
+	scanf("%c%s", &dir, s);
 	len = strlen(s);
 	for(i=0; i<len; i++) {
 		ind = strchr(key, s[i]) - key;
