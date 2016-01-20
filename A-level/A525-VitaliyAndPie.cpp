@@ -31,21 +31,3 @@ int main() {
 	printf("%d\n", cnt);
 	return 0;
 }
-
-/*
-input
-3
-aAbB
-output
-0
-input
-4
-aBaCaB
-output
-3
-input
-5
-xYyXzZaZ
-output
-2
-*/
